@@ -82,7 +82,7 @@ color:white;
 }
 
 
-`,Bv=({toggle:c})=>I.jsxs(Cv,{children:[I.jsx("div",{children:I.jsx("img",{src:"/diceimg.jpg",alt:""})}),I.jsxs("div",{className:"content",children:[I.jsx("h1",{children:"DICE GAME"}),I.jsx(or,{onClick:c,children:"Play Now"})]})]}),Cv=Gl.div`
+`,Bv=({toggle:c})=>I.jsxs(Cv,{children:[I.jsx("div",{children:I.jsx("img",{src:"/images/diceimg.jpg",alt:""})}),I.jsxs("div",{className:"content",children:[I.jsx("h1",{children:"DICE GAME"}),I.jsx(or,{onClick:c,children:"Play Now"})]})]}),Cv=Gl.div`
 max-width:1180px;
 display:flex;
 height:100vh;
@@ -144,7 +144,7 @@ font-weight:700;
 background-color:${c=>c.isSelected?"black":"white"};
 color:${c=>c.isSelected?"white":"black"};
 
-`,Vv=({rollDice:c,currentDice:s})=>I.jsxs(Lv,{children:[I.jsx("div",{className:"dice",onClick:c,children:I.jsx("img",{src:`/images/dice_${s}.png`,alt:"Dice 1"})}),I.jsx("p",{children:"Click on the dice to roll"})]}),Lv=Gl.div`
+`,Vv=({rollDice:c,currentDice:s})=>I.jsxs(Lv,{children:[I.jsx("div",{className:"dice",onClick:c,children:I.jsx("img",{src:`/images/dice_${s}.png`,alt:"Dice ${currentDice}"})}),I.jsx("p",{children:"Click on the dice to roll"})]}),Lv=Gl.div`
 
 margin-top:48px;
 display:flex;
