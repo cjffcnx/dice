@@ -191,4 +191,4 @@ gap:20px;
 
 }
 
-`;function Zv(){const[c,s]=Gl.useState(!1),o=()=>{s(r=>!r)};return k.createElement(k.Fragment,null,c?k.createElement(Qv,null):k.createElement(Rv,{toggle:o}))}_y.createRoot(document.getElementById("root")).render(React.createElement(Gl.StrictMode,null,React.createElement(Zv,null)));
+`;function Zv(){const[c,s]=Gl.useState(!1),o=()=>{s(r=>!r)};return k.createElement(k.Fragment,null,c?k.createElement(Qv,null):k.createElement(Rv,{toggle:o}))}_y.createRoot(document.getElementById("root")).render(k.createElement(Gl.StrictMode,null,k.createElement(Zv,null)));
